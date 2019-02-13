@@ -10,7 +10,7 @@ gamma = 1;          %dissipation rate
 Jx = 0.9*gamma;     %coupling parameter x direction
 Jy = 1.25*gamma;    %coupling parameter y direction
 Jz = gamma;         %coupling parameter z direction
-T = 10;             %time window of the trajectory
+T = 10000;             %time window of the trajectory
 dt = 1;             %after each dt 'save' the state of the system
 
 %calculate the trajectory and the steady-state spin structure factor 'Ss'
